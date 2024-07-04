@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //bai`
+      //   let count = 100;
+
+      //   for (let index = 1; index < count; index++) {
+      //     if (index == 99) {
+      //       alert("đã hoàn thành");
+      //     }
+      //   }
+
+      //bai 2
+
+      //   let input = parseFloat(prompt("Nhập nhiệt độ"));
+
+      //   if (input <= 20) {
+      //     alert("tăng nhiệt độ");
+      //   } else if (input >= 100) {
+      //     alert("giam nhiệt độ");
+      //   }
+
+      // bai 3
+
+      //   // Hàm để tính dãy Fibonacci
+      //   function fibonacci(n) {
+      //     let fib = [0, 1];
+      //     for (let i = 2; i < n; i++) {
+      //       fib[i] = fib[i - 1] + fib[i - 2];
+      //     }
+      //     return fib;
+      //   }
+
+      //   // Hiển thị 20 số đầu tiên trong dãy Fibonacci
+      //   let fib20 = fibonacci(20);
+      //   console.log(fib20);
+
+      // bai 4
+
+      //   // Hàm để tính dãy Fibonacci
+      //   function fibonacci(n) {
+      //     let fib = [0, 1];
+      //     for (let i = 2; i < n; i++) {
+      //       fib[i] = fib[i - 1] + fib[i - 2];
+
+      //         if (fib[i] % 5 === 0) {
+      //           console.log(fib[i]);
+      //           break;
+      //         }
+      //     }
+      //     return fib;
+      //   }
+
+      //   // Hiển thị 20 số đầu tiên trong dãy Fibonacci
+      //   let fib20 = fibonacci(20);
+      //   console.log(fib20);
+
+      // bai 5
+
+      //   let sum = 0;
+
+      //   // Hàm để tính dãy Fibonacci
+      //   function fibonacci(n) {
+      //     let fib = [0, 1];
+      //     for (let i = 2; i < n; i++) {
+      //       fib[i] = fib[i - 1] + fib[i - 2];
+
+      //       sum = fib[i] + sum;
+      //     }
+      //     return sum ;
+      //   }
+
+      //   // Hiển thị 20 số đầu tiên trong dãy Fibonacci
+      //   let fib20 = fibonacci(20);
+      //   console.log(fib20);
+
+      // bai 6
+
+      //   function tongSoTuNhien(n) {
+      //     let sum = 0;
+      //     let count = 0;
+      //     let num = 0;
+
+      //     while (count < n) {
+      //       if (num % 7 === 0) {
+      //         sum = sum + num;
+
+      //         count++;
+      //       }
+
+      //       num++;
+      //     }
+
+      //     return sum;
+      //   }
+
+      //   let messenge = tongSoTuNhien(30);
+
+      //   console.log(messenge);
+
+      //bai 7
+
+      for (let index = 1; index < 100; index++) {
+        if (index % 3 === 0 && index % 5 !== 0) {
+          console.log(index + "Fizz");
+        } else if (index % 3 !== 0 && index % 5 === 0) {
+          console.log(index + "Đánh Cá");
+        } else if (index % 5 === 0 && index % 3 === 0) {
+          console.log(index + "Fizz Đánh Cá");
+        }
+      }
+    </script>
+  </body>
+</html>
